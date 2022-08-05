@@ -34,7 +34,6 @@ class SendMails implements ShouldQueue
      */
     public function handle()
     {
-        
         foreach ($this->data as $item) {
             Mail::to($item->email)->send(new TestMail());
         }

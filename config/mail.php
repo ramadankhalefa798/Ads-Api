@@ -15,6 +15,13 @@ return [
 
     'default' => env('MAIL_MAILER', 'mailgun'),
 
+//     MAIL_MAILER=mailgun
+// MAIL_HOST=smtp.mailtrap.io
+// MAIL_PORT=2525
+// MAIL_USERNAME=null
+// MAIL_PASSWORD=null
+// MAIL_ENCRYPTION=null
+
     /*
     |--------------------------------------------------------------------------
     | Mailer Configurations
